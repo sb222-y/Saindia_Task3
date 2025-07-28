@@ -1,0 +1,33 @@
+.list-group-item.income {
+  border-left: 5px solid green;
+}
+
+.list-group-item.expense {
+  border-left: 5px solid red;
+}
+
+button.edit-btn {
+  margin-right: 5px;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+}
+
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+  background-color: #2b2b2b;
+  color: #e0e0e0;
+  border: 1px solid #444;
+}
+
+body.dark-mode .btn-dark {
+  background-color: #444;
+}
